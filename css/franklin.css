@@ -342,7 +342,7 @@ details > p {
 summary {
   display: inline-flex;
   background: none;
-  color: green;
+  color: #008080;
   list-style: none; /* to remove triangle */
   outline: none;
   cursor: pointer;
@@ -356,3 +356,4 @@ summary::-webkit-details-marker { /* to remove triangle  */
   display: inline-flex;
   display: none;
 }
+

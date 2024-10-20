@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 OCT 2024 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 OCT 2024 04:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -538,30 +538,52 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 (breakurl)                \burl will be just a synonym of \url.
 (breakurl)                 on input line 48.
 
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip76
+\RaggedLeftLeftskip=\skip77
+\RaggedRightLeftskip=\skip78
+\CenteringRightskip=\skip79
+\RaggedLeftRightskip=\skip80
+\RaggedRightRightskip=\skip81
+\CenteringParfillskip=\skip82
+\RaggedLeftParfillskip=\skip83
+\RaggedRightParfillskip=\skip84
+\JustifyingParfillskip=\skip85
+\CenteringParindent=\skip86
+\RaggedLeftParindent=\skip87
+\RaggedRightParindent=\skip88
+\JustifyingParindent=\skip89
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count288
 \l__pdf_internal_box=\box98
-) (./rscv.aux)
+)
+(./rscv.aux)
 \openout1 = `rscv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Trying to load font information for T1+pnc on input line 92
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Trying to load font information for T1+pnc on input line 94
 .
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pnc.fd
 File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
@@ -624,14 +646,14 @@ e
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 92.
+(lastpage)             ! on input line 94.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box100
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 94.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -644,147 +666,149 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
  (./rscv.out) (./rscv.out)
 \@outlinefile=\write3
 \openout3 = `rscv.out'.
 
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 94.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 94--94
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--96
 [][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-28.
+38.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-28.
+38.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-128.
+138.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-128.
+138.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 128.
+(Font)              <10.95> on input line 138.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 128.
+(Font)              <8> on input line 138.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 128.
+(Font)              <6> on input line 138.
 
-Overfull \hbox (23.99997pt too wide) in paragraph at lines 126--133
+Overfull \hbox (70.97504pt too wide) in paragraph at lines 136--143
 [] 
  []
 
 
-Overfull \hbox (31.2263pt too wide) in paragraph at lines 134--143
+Overfull \hbox (70.97504pt too wide) in paragraph at lines 144--153
 [] 
  []
 
 
-Overfull \hbox (26.32137pt too wide) in paragraph at lines 144--151
+Overfull \hbox (12.0pt too wide) in alignment at lines 158--160
  [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 155--157
+Overfull \hbox (12.0pt too wide) in alignment at lines 165--173
  [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 162--170
+Overfull \hbox (12.0pt too wide) in alignment at lines 177--181
  [] 
  []
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (12.0pt too wide) in alignment at lines 174--178
- [] 
- []
-
-
-Overfull \hbox (9.54619pt too wide) in paragraph at lines 181--189
-[]
- []
-
-
-Overfull \hbox (23.99997pt too wide) in paragraph at lines 201--212
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--227
-
- []
-
-
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 229--235
+Overfull \hbox (9.54619pt too wide) in paragraph at lines 184--192
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--235
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 204--216
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--226
 
  []
 
 
-Overfull \hbox (9.23282pt too wide) in paragraph at lines 243--243
-[]|\T1/pnc/m/n/10.95 Representative:| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 237--245
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 228--234
 [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
+
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./rscv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `rscv.out' has not changed.
-(rerunfilecheck)             Checksum: 4C4FA4CC15BC2E393A314A41B543D5EA;685.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
+(rerunfilecheck)             Checksum: 6B7D33EF22863E22CE4306D8594B9B1B;627.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 9699 strings out of 480608
- 148899 string characters out of 5903631
- 446434 words of memory out of 5000000
- 25345 multiletter control sequences out of 15000+600000
+ 9773 strings out of 480608
+ 150544 string characters out of 5903631
+ 446369 words of memory out of 5000000
+ 25412 multiletter control sequences out of 15000+600000
  568784 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,11n,48p,388b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,48p,458b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on rscv.pdf (3 pages, 55086 bytes).
+Output written on rscv.pdf (3 pages, 55212 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
