@@ -1,0 +1,287 @@
+\documentclass[11pt,english]{article}
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+% Uncomment any of the following four lines to get different fonts
+%\usepackage[garamondx,bigdelims]{newtxmath}
+%\usepackage{garamondx}
+%\usepackage{mathpazo}
+%\usepackage{mathptmx}
+\usepackage{newcent}
+
+% Colors: see  http://www.math.umbc.edu/~rouben/beamer/quickstart-Z-H-25.html
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+%\definecolor{oucrimson}   {RGB}{132.,22. ,23. }
+%\definecolor{byublue}     {RGB}{0.  ,30. ,76. }
+%\definecolor{navyblue}    {RGB}{0.  ,0.  ,128.}
+%\definecolor{darkblue}    {RGB}{0.  ,0.  ,139.}
+%\definecolor{dukeblue}    {RGB}{0.  ,0.  ,156.}
+
+% Layout
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{setspace} %singlespacing; onehalfspacing; doublespacing; setstretch{1.1}
+\setstretch{1.5}
+\usepackage[verbose,margin=1in]{geometry} % Margins
+\setlength{\headheight}{15pt} % Sufficent room for headers
+\usepackage[bottom]{footmisc} % Forces footnotes on bottom
+
+% Headers/Footers
+%\usepackage{datenumber}
+\usepackage{lastpage}
+\setlength{\headheight}{0pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\lhead{} \chead{} \rhead{}
+\lfoot{\today} \cfoot{}
+\rfoot{Page \thepage \,of \pageref{LastPage}}
+
+% Useful Packages
+%\usepackage{bookmark} % For speedier bookmarks
+%\usepackage{amsthm}   % For detailed theorems
+%\usepackage{amssymb}  % For fancy math symbols
+%\usepackage{amsmath}  % For awesome equations/equation arrays
+\usepackage{array}    % For tubular tables
+\usepackage{booktabs}
+\usepackage{longtable}% For long tables
+\usepackage[flushleft]{threeparttable} % For three-part tables
+\usepackage{multicol} % For multi-column cells
+\usepackage{graphicx} % For shiny pictures
+\usepackage{subfig}   % For sub-shiny pictures
+\usepackage{enumerate}% For cusomtizable lists
+%\usepackage{pstricks,pst-node,pst-tree,pst-plot} % For trees
+
+% Bib
+\usepackage[authoryear]{natbib} % Bibliography
+\usepackage{url}                % Allows urls in bib
+
+% TOC
+\setcounter{tocdepth}{4}
+
+% Links
+\usepackage{hyperref}    % Always add hyperref (almost) last
+\hypersetup{colorlinks,breaklinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black}
+\usepackage[all]{hypcap} % Links point to top of image, builds on hyperref
+\usepackage{breakurl}    % Allows urls to wrap, including hyperref
+
+% Custom commands
+\newcommand{\makeheading}[2]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth\marginparwidth\marginparsep}%
+         {\LARGE\bfseries #1} \hfill  {\LARGE\bfseries #2 \hspace*{-2.3\marginparsep minus \marginparwidth}}\\[-0.5\baselineskip]%
+                 \rule{\textwidth}{1.5pt}\rule{\marginparsep}{1.5pt}\rule{\marginparwidth}{1.5pt}%
+         \end{minipage}}
+
+\setlength{\parindent}{0in}
+\reversemarginpar
+\renewcommand{\section}[2]{
+        \pagebreak[3]%
+        \vspace{0.75\baselineskip}%
+        \phantomsection\addcontentsline{toc}{section}{#1}%
+        \hspace{0in}%
+        %\marginpar{\raggedright \scshape #1}#2}
+        %\rule[3.5pt]{0.9in}{1.5pt} ~~
+        {\raggedright \scshape \large \textbf{#1}}%
+        \vspace{0.25\baselineskip}#2
+}
+
+\usepackage{ragged2e} % for justify alignment
+
+
+\begin{document}
+%\thispagestyle{empty}
+\makeheading{RITIKA SETHI}{Curriculum Vitae}
+
+
+% ADDRESS/CONTACT HEADER
+% ==================================================================================
+\setstretch{1.0}
+\begin{multicols}{3}
+
+\begin{flushleft}
+\textit{E-mail:} \href{mailto:rs98@rice.edu}{ritika.sethi@rice.edu}
+%Department of Economics
+%Rice University \\
+%P.O. Box 1892 \\
+%Houston, TX 77251-1892
+\end{flushleft}
+        
+ \begin{center}
+\textit{Linkedin:} \href{https://www.linkedin.com/in/rsritikasethi/}{rsritikasethi}
+\end{center}
+
+\begin{flushright}
+%\textit{Phone:} (832) 964-9465
+%\textit{E-mail:} \href{mailto:rs98@rice.edu}{ritika.sethi@rice.edu}
+\textit{Homepage:} \href{https://www.ritikasethi.com}{ritikasethi.com}
+%\textit{Citizenship:} India
+\end{flushright}
+
+\end{multicols}
+% ==================================================================================
+
+
+
+\setstretch{1.2}
+\vspace{-.25in}
+
+\section{Research Fields}\\
+% ==================================================================================
+\vspace{-1mm}
+Labor Economics, Economics of Education, Health Economics
+
+\section{Education}\\
+% ==================================================================================
+\begin{tabular}{p{1.5in}>{\hangindent=1em}p{5.65in}<{\raggedright}}
+2025 (expected) & Ph.D. in Economics, Rice University \\
+2016 & M.Sc. in Economics, University College London \\
+2015 & B.A. (Honors) in Economics, University of Delhi \\
+\end{tabular}
+
+\section{Employment \& Affiliations}\\
+% ==================================================================================
+\begin{tabular}{p{1.5in}>{\hangindent=1em}p{5.65in}<{\raggedright}}
+2021-present & Research Assistant, Texas Policy Lab, Rice University \\
+2019-2020 & Research Assistant, Department of Economics, Rice University \\
+2017-2019 & Research Associate, Department of Economics, Indian School of Business  \\
+2016 & Teaching Instructor, O.P. Jindal Global University \\
+2015 & Research Intern, National Council of Applied Economic Research
+\end{tabular}
+
+
+\section{Published \& Forthcoming Papers}\\
+% ==================================================================================
+\vspace{-8mm}
+\begin{longtable}{>{\hangindent=0.5em}p{\textwidth}<{\raggedright}}
+ \href{http://ritikasethi.com/assets/forshaw_olkers_sethi_sovani.pdf}{``A Comment on DiNecco et al. (2022): Pre-Colonial Warfare and Long-Run Development in India''} (with Rachel Forshaw, Tim Olkers and Manali Sovani), \textbf{Canadian Journal of Economics} \\
+\end{longtable}
+\vspace{-8mm}
+\section{Working Papers}\\
+\vspace{-8mm}
+% ==================================================================================
+\begin{longtable}{>{\hangindent=0.5em}p{\textwidth}<{\raggedright}}
+ \href{http://ritikasethi.com/assets/rs_jmp.pdf}{``Ignorance is Bliss? Evaluating the Impact of Rank Non-Disclosure on High School Course Choice''}  (\textbf{Job Market Paper}) \\
+\href{http://ritikasethi.com/assets/sethi_coursechoice_segregation.pdf}{``Unraveling Teacher Steering and Student Sorting in Between-School Segregation's Impact on Within-School Segregation''},  \textit{Reject and Resubmit at the} \textbf{International Economic Review} \\
+ \href{http://ritikasethi.com/assets/cunha_lee_sethi.pdf}{``If You Build It, They Will Come: A Demand Analysis of Household-Level Childcare Choices"} (with Fl\'avio Cunha and Jung Youn Lee) \\
+\href{http://ritikasethi.com/assets/mishra_sethi_es24.pdf}{``Pharmacy Proximity and Period Poverty: Assessing the Impact of Subsidized Menstrual Product Availability on Menstrual Management and Educational Outcomes''} (with Dibya Mishra) \\
+\href{http://ritikasethi.com/assets/devi_keskar_mishra_sethi.pdf}{``Beyond a Free Lunch: Evaluating the Trade-Offs of an  
+	Out-of-School Nutrition Program on Adolescent Girls' Human Capital''} (with Tanmay Devi, Ajinkya Keskar and Dibya Mishra) \\
+	 \href{http://ritikasethi.com/assets/I4R-DP107.pdf}{``Mass Reproducibility and Replicability: A New Hope''} (with Abel Brodeur, Derek Mikola, Nikolai Cook, and others) \\
+\end{longtable}
+\vspace{-8mm}
+\section{Selected Work in Progress}\\
+\vspace{-8mm}
+\begin{longtable}{>{\hangindent=0.5em}p{\textwidth}<{\raggedright}}
+\href{link}{``Investigating the Impact of Quality Ratings in Child Care Provision on Long-Term Educational Outcomes''} (with Fl\'avio Cunha) \\
+\href{link}{"Redrawing Boundaries: An Algorithmic Approach to Fairer School Attendance Zones"} (with Dibya Mishra)   \\ 
+\href{link}{"Negotiating Work: The Role of Marriage Matching in Women's Labor Force Participation in India" }
+\end{longtable}
+\vspace{-8mm}
+
+\section{Invited Conference \& Seminar Presentations}\\ %\vspace{-7.5mm}
+% ==================================================================================
+\begin{tabular}{p{.35in}p{5.95in}}
+2024 & NBER Innovation Research Boot Camp, NBER Innovation Summer Institute, Annual Conference of the American Society of Health Economists (ASHEcon) \textit{(co-author presented)}, North America Summer Meeting of the Econometric Society, Special Memorial Conference for Dr Rodney J Andrews (AEE), Development and Political Economics Conference (DevPEC) \textit{(co-author presented)},  Asia Meeting of the Econometric Society \\
+2023 & Annual Conference on Economic Growth and Development, Southern Economic Association Annual Meeting (SEA), Association for Public Policy Analysis and Management Fall Conference, Royal Economic Society Annual Conference (RES), NBER Race and Stratification Working Group, Association for Education Finance \& Policy Annual Conference (AEFP) \\
+2022 & SEA, Rice Economics Third Year Paper Conference
+\end{tabular}
+%Attendance (by invitation): NBER 2024 Innovation Research Boot Camp, NBER 2024 Innovation Summer Institute, NBER 2023 Race and Stratification Working Group (online)
+
+
+
+
+%\section{Paper Discussions}\\ %\vspace{-7.5mm}
+% ==================================================================================
+%\begin{tabular}{p{.85in}>{\hangindent=1em}p{5.65in}<{\raggedright}}
+%Year & ``Title'' by Authors,(Conference, Location) \\
+%\end{tabular}
+
+
+
+\section{Fellowships \& Awards}\\%\vspace{-7.5mm}
+% ==================================================================================
+%\begin{itemize} % Use \item[] to prevent a bullet from appearing
+\begin{tabular}{p{.75in}>{\hangindent=1em}p{5.75in}<{\raggedright}}
+2024-2025 & Graduate Fellowship, Texas Policy Lab \\
+2019-2024 & Economics Graduate Fellowship, Rice University\\
+2020-2021 & Florence Fulton Endowed Fellowship in Economics, Rice University,  \\
+2020 &  COVID-19 Research Fund, Rice University \\
+2019-2020 & Hansen Family Fellowship in Economics, Rice University \\
+\end{tabular}
+Travel Grants: NBER (2024), AEE (2024),
+RES (2023), AEFP (2023), Alfred P Sloan Foundation (2022), Rice University (2024, 2023, 2022)
+
+
+\section{Teaching Experience}\\
+% ==================================================================================
+%\vspace{-2mm}
+\begin{tabular}{>{\hangindent=1em}p{6in}<{\raggedright}}
+Instructor, Jindal Global Law School, 2016, Economic Analysis of Law (UG) \\
+Teaching Assistant, Indian School of Business, 2018, Managerial Economics (MBA) \\ 
+Teaching Assistant, Rice University,  2020-21, Applied Econometrics (UG), Development Economics (UG), Economics of Human Capital (UG)
+  \end{tabular}\\
+
+
+\section{Skills}\\
+%==================================================================================$
+\begin{tabular}{p{0.15\textwidth}>{\hangindent=1em}p{0.85\textwidth}<{\raggedright}}
+Coding Skills:  & Julia, Stata, \LaTeX, Matlab, ArcGIS \\
+Languages:&  Hindi (native), English (bilingual) \\
+\end{tabular}\\
+
+%\pagebreak{}
+
+%\section{Departmental \& University Service}\\
+%==================================================================================$
+%\begin{tabular}{p{.85in}>{\hangindent=1em}p{5.65in}<{\raggedright}}
+%Year- &   Role, Department, Committee name \\
+%\end{tabular}
+
+
+%\pagebreak{}
+\section{References}\\
+%==================================================================================$
+%Available upon request
+
+\begin{center}
+\begin{tabular}{lr}
+
+	 % Additional newline for spacing.
+	% Referee 3
+	\begin{minipage}[t]{0.45\textwidth}
+		{\bf Fl\'avio Cunha} (chair) \\
+		Ervin K. Zingler Professor of Economics \\
+		%Department of Economics \\
+		Rice University\\
+		Houston, TX 77030\\
+		Email: \href{mailto:flaviocunha@rice.edu}{flaviocunha@rice.edu}\\
+		%Phone:  \href{tel:713.348.3312}{713.348.3312}
+	\end{minipage}
+	&
+	\begin{minipage}[t]{0.45\textwidth}
+	{\bf Rossella Calvi}\\
+	Associate Professor\\
+	%Department of Economics \\
+	Rice University\\
+	Houston, TX 77030\\
+		Email: \href{mailto:rossella.calvi@rice.edu}{rossella.calvi@rice.edu} \\
+		%Phone:  \href{tel: 713.348.3270}{713.348.3270}
+	\end{minipage}
+	\\ \\
+\begin{minipage}[t]{0.45\textwidth}
+		{\bf Robin Sickles}\\
+		Reginald Henry Hargrove Chair of Economics (Emeritus)\\
+		%Department of Economics \\
+		Rice University\\
+		Houston, TX 77030\\
+		Email: \href{mailto:rsickles@rice.edu}{rsickles@rice.edu}\\
+		%Phone:  \href{tel: 713.348.3322}{ 713.348.3322}
+	\end{minipage}
+\end{tabular}
+\end{center}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
