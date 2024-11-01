@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 OCT 2024 07:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 NOV 2024 16:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -564,7 +564,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count288
 \l__pdf_internal_box=\box98
 )
-No file rs_cv.aux.
+(./rs_cv.aux)
 \openout1 = `rs_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -585,7 +585,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Trying to load font information for T1+pnc on input line 94
 .
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pnc.fd
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pnc.fd
 File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -669,6 +669,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
+ (./rs_cv.out) (./rs_cv.out)
 \@outlinefile=\write3
 \openout3 = `rs_cv.out'.
 
@@ -733,9 +734,6 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 177--181
  [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 181.
-
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -768,9 +766,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 249.
-
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 255--262
 
@@ -787,52 +782,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--282
  []
 
 
-Package lastpage Warning: Rerun to get the references right on input line 285.
-
-
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 285.
-
 [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./rs_cv.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
-
-
-Package rerunfilecheck Warning: File `rs_cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `rs_cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6B7D33EF22863E22CE4306D8594B9B1B;627.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `rs_cv.out' has not changed.
+(rerunfilecheck)             Checksum: 6B7D33EF22863E22CE4306D8594B9B1B;627.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 9755 strings out of 480608
- 150363 string characters out of 5903631
- 446186 words of memory out of 5000000
- 25400 multiletter control sequences out of 15000+600000
+ 9773 strings out of 480608
+ 150559 string characters out of 5903631
+ 446372 words of memory out of 5000000
+ 25412 multiletter control sequences out of 15000+600000
  568784 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,11n,48p,459b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,48p,459b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on rs_cv.pdf (3 pages, 54435 bytes).
+Output written on rs_cv.pdf (3 pages, 55032 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
