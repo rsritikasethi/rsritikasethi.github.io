@@ -357,3 +357,8 @@ summary::-webkit-details-marker { /* to remove triangle  */
   display: none;
 }
 
+
+/* Paper links use the same color as Abstract buttons */
+.franklin-content a.paper-link {
+  color: #008080;
+}
